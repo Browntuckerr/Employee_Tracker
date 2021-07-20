@@ -1,0 +1,22 @@
+{
+    "name": "Employee_Tracker",
+    "version": "1.0.0",
+    "description": "Software to manage information built with Node.js",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo\"Error: no test specified\"&& exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Browntuckerr/Employee_Tracker"
+    },
+    "author": "Tucker Brown",
+    "license": "MIT",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "express": "^4.17.1",
+        "inquirer": "^8.1.2",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.2.5"
+    }
+}
