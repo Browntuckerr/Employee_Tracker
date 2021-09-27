@@ -1,4 +1,4 @@
-USE Employees_db;
+USE employees_db;
 
 INSERT INTO department (name)
 VALUES ("Pixar Studios"),
@@ -13,15 +13,15 @@ VALUES ("Chairman",  15000000, 1),
 ("Cast Member", 45000, 5),
 ("Janitor", 10000, 6);
 
-INSERT INTO employee (firstname, lastname, role, manager)
-VALUES ("Mickey", "Mouse", 1, 1),
-("Donald", "Duck", 2, null),
-("Minnie", "Mouse", 2, 1),
-("Buzz", "Lightyear", 3, 1),
-("Bo", "Peep", 3, null),
-("John", "Smith", 5, null),
-("Obi-Wan", "Kenobi", 4, 1),
-("Stinky", "Pete", 6, null);
+INSERT INTO employee (firstname, lastname, role_id)
+VALUES ("Mickey", "Mouse", 1),
+("Donald", "Duck", 2),
+("Minnie", "Mouse", 2),
+("Buzz", "Lightyear", 3),
+("Bo", "Peep", 3),
+("John", "Smith", 5),
+("Obi-Wan", "Kenobi", 4),
+("Stinky", "Pete", 6);
 
 
 
